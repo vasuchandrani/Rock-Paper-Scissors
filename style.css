@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+h1{
+    background-color: rgb(46, 52, 59);
+    color: white;
+    height: 3em;
+    line-height: 3em;
+    border-bottom: 0.1em solid white;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 5em;
+}
+.choice{
+    height: 9em;
+    width: 9em;
+    border-radius: 50%;
+    border: 0.1em solid white;
+}
+.choice:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#rock{
+    background-image: url("./image/ROCK1.png");
+    background-size: cover;
+}
+#paper{
+    background-image: url("./image/PAPER.png");
+    background-size: cover;
+}
+#scissors{
+    background-image: url("./image/SCISSORS.png");
+    background-size: cover;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 3em;
+    font-size: 1.2em;
+}
+.score{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em ;
+    cursor: pointer;
+}
+#msg{
+    background-color: rgb(46, 52, 59);
+    padding: 0.2em;
+    width: 17em;
+    border: 0.1em solid white;
+    border-radius: 1em;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#msg:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
